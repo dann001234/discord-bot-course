@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Discord Bot com Discord.js e TypeScript — Curso Completo</title>
+  <meta name="description" content="Curso completo e totalmente autoral para criar bots profissionais para Discord com Discord.js e TypeScript. Do zero ao avançado." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>" />
+</head>
+<body>
+  <div class="app-layout">
+
+    <!-- ============================================
+         SIDEBAR
+         ============================================ -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <a class="sidebar-logo" href="#" onclick="showWelcome(); return false;">
+          <div class="sidebar-logo-icon">🤖</div>
+          <div class="sidebar-logo-text">
+            Discord Bot Course
+            <span>Discord.js + TypeScript</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="sidebar-progress">
+        <div class="progress-label">
+          <span>Progresso</span>
+          <span id="progress-text">0/34 aulas</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav" id="sidebar-nav">
+        <!-- Preenchido pelo JavaScript -->
+      </nav>
+    </aside>
+
+    <!-- Overlay para fechar sidebar no mobile -->
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <!-- ============================================
+         CONTEÚDO PRINCIPAL
+         ============================================ -->
+    <main class="main-content">
+
+      <!-- Header Superior -->
+      <header class="top-header">
+        <div style="display:flex;align-items:center;gap:12px;">
+          <button class="hamburger-btn" id="hamburger-btn" aria-label="Abrir menu">☰</button>
+          <nav class="breadcrumb">
+            <a href="#" onclick="showWelcome(); return false;">Início</a>
+            <span class="breadcrumb-sep">›</span>
+            <span class="breadcrumb-current" id="breadcrumb-current">Bem-vindo</span>
+          </nav>
+        </div>
+        <div class="header-actions">
+          <button class="btn btn-primary" id="start-btn" onclick="loadLesson('1.1')">
+            🚀 Começar
+          </button>
+        </div>
+      </header>
+
+      <!-- Área de Conteúdo da Aula -->
+      <div class="lesson-area" id="lesson-area">
+        <!-- Preenchido pelo JavaScript -->
+      </div>
+
+    </main>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
