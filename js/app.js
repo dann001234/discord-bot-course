@@ -144,7 +144,7 @@ const lessonContent = {
       <p>Quando o Node.js encontra uma operação de I/O (como ler um arquivo, fazer uma requisição de rede ou esperar por uma mensagem do Discord), ele não para e espera. Em vez disso, ele registra um "callback" (uma função a ser chamada quando a operação terminar) e continua executando o restante do código. Quando a operação termina, o callback é adicionado à fila e executado no próximo ciclo do loop.</p>
 
       <div class="callout callout-info">
-        <span class="callout-icon">💡</span>
+        💡
         <div><strong>Analogia:</strong> Pense em um garçom em um restaurante. Um garçom ruim anotaria o pedido de uma mesa, iria à cozinha, ficaria parado esperando o prato ficar pronto e só então voltaria para a mesa. Um garçom eficiente (como o Node.js) anota o pedido, entrega à cozinha, e enquanto o prato não fica pronto, ele vai atender outras mesas. Quando a cozinha avisa que o prato está pronto, ele vai buscá-lo e entrega.</div>
       </div>
 
@@ -156,8 +156,8 @@ npm --version</code></pre>
 
       <div class="challenge-box">
         <div class="challenge-header">
-          <span class="challenge-icon">🎯</span>
-          <span class="challenge-title">Desafio Prático</span>
+          🎯
+          Desafio Prático
         </div>
         <ol>
           <li>Pesquise a história do Node.js: quem o criou e por quê?</li>
@@ -220,14 +220,14 @@ npm --version    # Deve mostrar algo como 10.x.x</code></pre>
 }</code></pre>
 
       <div class="callout callout-warning">
-        <span class="callout-icon">⚠️</span>
+        ⚠️
         <div><strong>Atenção:</strong> Sempre use a versão LTS do Node.js para projetos em produção. As versões com número par (ex: 18, 20, 22) são versões LTS e recebem suporte de longo prazo. As versões com número ímpar são versões "Current" com as últimas funcionalidades, mas com suporte mais curto.</div>
       </div>
 
       <div class="challenge-box">
         <div class="challenge-header">
-          <span class="challenge-icon">🎯</span>
-          <span class="challenge-title">Desafio Prático</span>
+          🎯
+          Desafio Prático
         </div>
         <ol>
           <li>Instale o Node.js LTS no seu computador usando o método de sua preferência.</li>
@@ -307,14 +307,14 @@ type Prefixo = "!" | "?" | "." | "/";</code></pre>
       <p>O Discord.js foi escrito com suporte a TypeScript em mente. Isso significa que a biblioteca vem com definições de tipo completas, o que torna o desenvolvimento muito mais agradável. Você terá autocompletar para todos os métodos e propriedades dos objetos do Discord.js, como <code>Message</code>, <code>Guild</code>, <code>User</code>, e muito mais.</p>
 
       <div class="callout callout-info">
-        <span class="callout-icon">💡</span>
+        💡
         <div><strong>Importante:</strong> O TypeScript não roda diretamente no Node.js. Ele precisa ser <em>compilado</em> (transpilado) para JavaScript primeiro. Aprenderemos a configurar esse processo na próxima aula.</div>
       </div>
 
       <div class="challenge-box">
         <div class="challenge-header">
-          <span class="challenge-icon">🎯</span>
-          <span class="challenge-title">Desafio Prático</span>
+          🎯
+          Desafio Prático
         </div>
         <ol>
           <li>Instale o TypeScript globalmente: <code>npm install -g typescript</code></li>
@@ -387,14 +387,14 @@ type Prefixo = "!" | "?" | "." | "/";</code></pre>
       <pre><code class="language-bash">npm install -D tsx typescript @types/node</code></pre>
 
       <div class="callout callout-success">
-        <span class="callout-icon">✅</span>
+        ✅
         <div><strong>Fluxo de Trabalho:</strong> Durante o desenvolvimento, use <code>npm run dev</code> para iniciar o bot com recarregamento automático. Para produção, use <code>npm run build</code> para compilar e depois <code>npm run start</code> para executar.</div>
       </div>
 
       <div class="challenge-box">
         <div class="challenge-header">
-          <span class="challenge-icon">🎯</span>
-          <span class="challenge-title">Desafio Prático</span>
+          🎯
+          Desafio Prático
         </div>
         <ol>
           <li>Na pasta do seu projeto, crie o <code>tsconfig.json</code> com a configuração apresentada.</li>
@@ -458,7 +458,7 @@ logs/
 Thumbs.db</code></pre>
 
       <div class="callout callout-danger">
-        <span class="callout-icon">🚨</span>
+        🚨
         <div><strong>Atenção Crítica:</strong> Se você acidentalmente enviar seu token do Discord para o GitHub, qualquer pessoa pode usar seu bot para fins maliciosos. Vá imediatamente ao Discord Developer Portal, resete o token e adicione o <code>.env</code> ao <code>.gitignore</code> antes de fazer qualquer commit.</div>
       </div>
 
@@ -486,8 +486,8 @@ Thumbs.db</code></pre>
 
       <div class="challenge-box">
         <div class="challenge-header">
-          <span class="challenge-icon">🎯</span>
-          <span class="challenge-title">Desafio Prático</span>
+          🎯
+          Desafio Prático
         </div>
         <ol>
           <li>Crie a estrutura de pastas inicial do projeto conforme apresentado.</li>
@@ -519,7 +519,7 @@ Thumbs.db</code></pre>
       <p>Neste curso, usamos o <strong>Discord.js v14</strong>, que é a versão mais recente e estável. Ela introduziu mudanças significativas em relação às versões anteriores, incluindo suporte nativo a Slash Commands, componentes interativos e uma API mais consistente.</p>
 
       <div class="callout callout-warning">
-        <span class="callout-icon">⚠️</span>
+        ⚠️
         <div><strong>Atenção:</strong> Se você encontrar tutoriais mais antigos na internet, eles podem usar o Discord.js v12 ou v13, que têm APIs diferentes. Sempre verifique a versão que o tutorial usa antes de seguir.</div>
       </div>
 
@@ -541,8 +541,8 @@ Thumbs.db</code></pre>
 
       <div class="challenge-box">
         <div class="challenge-header">
-          <span class="challenge-icon">🎯</span>
-          <span class="challenge-title">Desafio Prático</span>
+          🎯
+          Desafio Prático
         </div>
         <ol>
           <li>Acesse a documentação oficial do Discord.js em <a href="https://discord.js.org" target="_blank">discord.js.org</a> e explore a seção "Guide" (Guia).</li>
@@ -578,7 +578,7 @@ Thumbs.db</code></pre>
       <pre><code class="language-bash">DISCORD_TOKEN=seu_token_aqui</code></pre>
 
       <div class="callout callout-danger">
-        <span class="callout-icon">🚨</span>
+        🚨
         <div><strong>Segurança Crítica:</strong> Trate seu token como uma senha. Nunca o compartilhe, nunca o coloque em código que vai para o GitHub, e nunca o mostre em streams ou vídeos. Se ele vazar, qualquer pessoa pode controlar seu bot. Resete-o imediatamente se isso acontecer.</div>
       </div>
 
@@ -603,8 +603,8 @@ GUILD_ID=id_do_seu_servidor_de_testes</code></pre>
 
       <div class="challenge-box">
         <div class="challenge-header">
-          <span class="challenge-icon">🎯</span>
-          <span class="challenge-title">Desafio Prático</span>
+          🎯
+          Desafio Prático
         </div>
         <ol>
           <li>Acesse o Discord Developer Portal e crie uma nova aplicação.</li>
@@ -660,8 +660,8 @@ console.log('Token:', process.env.DISCORD_TOKEN ? 'Encontrado ✅' : 'NÃO ENCON
 
       <div class="challenge-box">
         <div class="challenge-header">
-          <span class="challenge-icon">🎯</span>
-          <span class="challenge-title">Desafio Prático</span>
+          🎯
+          Desafio Prático
         </div>
         <ol>
           <li>Execute o comando de instalação das dependências.</li>
@@ -716,14 +716,14 @@ client.login(process.env.DISCORD_TOKEN);</code></pre>
       <p>E no Discord, o status do seu bot mudará para online! Parabéns, você acabou de criar seu primeiro bot!</p>
 
       <div class="callout callout-info">
-        <span class="callout-icon">💡</span>
+        💡
         <div><strong>client.once vs client.on:</strong> Use <code>client.once</code> para eventos que devem ser tratados apenas uma vez (como o evento <code>ready</code>). Use <code>client.on</code> para eventos que podem ocorrer múltiplas vezes (como receber uma mensagem).</div>
       </div>
 
       <div class="challenge-box">
         <div class="challenge-header">
-          <span class="challenge-icon">🎯</span>
-          <span class="challenge-title">Desafio Prático</span>
+          🎯
+          Desafio Prático
         </div>
         <ol>
           <li>Escreva o código completo no seu <code>src/index.ts</code> e execute o bot.</li>
@@ -779,14 +779,14 @@ const client = new Client({
 });</code></pre>
 
       <div class="callout callout-warning">
-        <span class="callout-icon">⚠️</span>
+        ⚠️
         <div><strong>Lembre-se:</strong> Para as intents privilegiadas (<code>GuildMembers</code> e <code>MessageContent</code>), você precisa habilitá-las no Discord Developer Portal em "Bot" > "Privileged Gateway Intents".</div>
       </div>
 
       <div class="challenge-box">
         <div class="challenge-header">
-          <span class="challenge-icon">🎯</span>
-          <span class="challenge-title">Desafio Prático</span>
+          🎯
+          Desafio Prático
         </div>
         <ol>
           <li>Vá ao Discord Developer Portal e habilite as intents privilegiadas <code>Server Members Intent</code> e <code>Message Content Intent</code>.</li>
@@ -974,7 +974,7 @@ function generateLessonContent(id, title, intro, sections, challenge) {
       html += `<pre><code class="language-${section.lang || 'typescript'}">${escapeHtml(section.code)}</code></pre>`;
     }
   });
-  html += `<div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><p style="color:var(--text-secondary);font-size:14px;">${challenge}</p></div>`;
+  html += `<div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><p style="color:var(--text-secondary);font-size:14px;">${challenge}</p></div>`;
   return html;
 }
 
@@ -1014,7 +1014,7 @@ await interaction.reply({ embeds: [embed] });</code></pre>
           <tr><td><code>setTimestamp()</code></td><td>Adiciona a data/hora atual ao rodapé</td></tr>
         </tbody>
       </table>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Crie um comando <code>/serverinfo</code> que exibe um embed com informações do servidor (nome, membros, canais, data de criação).</li><li>Crie um comando <code>/userinfo</code> que exibe um embed com informações de um usuário (tag, ID, data de entrada, cargos).</li><li>Experimente diferentes cores e layouts para seus embeds.</li></ol></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Crie um comando <code>/serverinfo</code> que exibe um embed com informações do servidor (nome, membros, canais, data de criação).</li><li>Crie um comando <code>/userinfo</code> que exibe um embed com informações de um usuário (tag, ID, data de entrada, cargos).</li><li>Experimente diferentes cores e layouts para seus embeds.</li></ol></div>
     `,
     "4.2": `
       <h2>Botões Interativos</h2>
@@ -1068,7 +1068,7 @@ collector.on('collect', async (buttonInteraction) => {
           <tr><td><code>Link</code></td><td>Cinza c/ ícone</td><td>Link externo (usa URL em vez de customId)</td></tr>
         </tbody>
       </table>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Crie um comando <code>/confirmar-ban</code> que exibe um embed com informações do usuário a ser banido e dois botões: "Confirmar" e "Cancelar".</li><li>Implemente a lógica de coleta de interação para processar o clique em cada botão.</li><li>Adicione um timeout: se nenhum botão for clicado em 30 segundos, edite a mensagem para "Tempo esgotado."</li></ol></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Crie um comando <code>/confirmar-ban</code> que exibe um embed com informações do usuário a ser banido e dois botões: "Confirmar" e "Cancelar".</li><li>Implemente a lógica de coleta de interação para processar o clique em cada botão.</li><li>Adicione um timeout: se nenhum botão for clicado em 30 segundos, edite a mensagem para "Tempo esgotado."</li></ol></div>
     `,
     "4.3": `
       <h2>Select Menus</h2>
@@ -1113,7 +1113,7 @@ collector.on('collect', async (selectInteraction) => {
   const escolha = selectInteraction.values[0];
   await selectInteraction.update({ content: \`Você escolheu: \${escolha}!\`, components: [] });
 });</code></pre>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Crie um comando <code>/escolher-cargo</code> que exibe um Select Menu com 5 cargos de interesse (ex: Programador, Designer, Gamer). Ao selecionar, o bot deve dar o cargo ao usuário.</li><li>Permita a seleção de múltiplos cargos usando <code>setMaxValues(3)</code>.</li></ol></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Crie um comando <code>/escolher-cargo</code> que exibe um Select Menu com 5 cargos de interesse (ex: Programador, Designer, Gamer). Ao selecionar, o bot deve dar o cargo ao usuário.</li><li>Permita a seleção de múltiplos cargos usando <code>setMaxValues(3)</code>.</li></ol></div>
     `,
     "4.4": `
       <h2>Modals (Formulários)</h2>
@@ -1156,7 +1156,7 @@ const titulo = submitted.fields.getTextInputValue('titulo-input');
 const descricao = submitted.fields.getTextInputValue('descricao-input');
 
 await submitted.reply(\`Sugestão recebida! Título: \${titulo}\`);</code></pre>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Crie um comando <code>/sugestao</code> que abre um modal com campos para título e descrição.</li><li>Ao receber o modal, envie a sugestão formatada em um embed para um canal específico de sugestões.</li><li>Responda ao usuário com uma confirmação efêmera.</li></ol></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Crie um comando <code>/sugestao</code> que abre um modal com campos para título e descrição.</li><li>Ao receber o modal, envie a sugestão formatada em um embed para um canal específico de sugestões.</li><li>Responda ao usuário com uma confirmação efêmera.</li></ol></div>
     `,
     "4.5": `
       <h2>Combinando Componentes</h2>
@@ -1191,7 +1191,7 @@ if (interaction.isButton()) {
     await interaction.showModal(modal);
   }
 }</code></pre>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Crie um painel de moderação completo que combina embeds, botões e modals.</li><li>Ao clicar em "Advertir" ou "Banir", abra um modal pedindo o motivo.</li><li>Ao confirmar, execute a ação e registre em um canal de logs.</li></ol></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Crie um painel de moderação completo que combina embeds, botões e modals.</li><li>Ao clicar em "Advertir" ou "Banir", abra um modal pedindo o motivo.</li><li>Ao confirmar, execute a ação e registre em um canal de logs.</li></ol></div>
     `,
     "5.1": `
       <h2>Por que Precisamos de um Handler?</h2>
@@ -1236,7 +1236,7 @@ export default {
     await interaction.reply(\`🏓 Pong! Latência: \${latency}ms\`);
   }
 };</code></pre>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Implemente o handler de comandos no seu <code>index.ts</code>.</li><li>Crie a estrutura de pastas <code>src/commands/utilidades/</code> e mova seus comandos existentes para lá.</li><li>Verifique no console que todos os comandos estão sendo carregados ao iniciar o bot.</li></ol></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Implemente o handler de comandos no seu <code>index.ts</code>.</li><li>Crie a estrutura de pastas <code>src/commands/utilidades/</code> e mova seus comandos existentes para lá.</li><li>Verifique no console que todos os comandos estão sendo carregados ao iniciar o bot.</li></ol></div>
     `,
     "5.2": `
       <h2>Handler de Eventos</h2>
@@ -1288,7 +1288,7 @@ export default {
     }
   }
 };</code></pre>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Implemente o handler de eventos.</li><li>Mova o evento <code>ready</code> e o evento <code>interactionCreate</code> para arquivos separados na pasta <code>src/events/</code>.</li><li>Adicione um evento <code>guildCreate</code> que loga quando o bot é adicionado a um novo servidor.</li></ol></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Implemente o handler de eventos.</li><li>Mova o evento <code>ready</code> e o evento <code>interactionCreate</code> para arquivos separados na pasta <code>src/events/</code>.</li><li>Adicione um evento <code>guildCreate</code> que loga quando o bot é adicionado a um novo servidor.</li></ol></div>
     `,
     "5.3": `
       <h2>A Estrutura Profissional Final</h2>
@@ -1320,7 +1320,7 @@ declare module 'discord.js' {
     commands: Collection<string, any>;
   }
 }</code></pre>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Organize todos os seus arquivos na estrutura de pastas profissional.</li><li>Crie o arquivo <code>src/types/index.ts</code> para estender os tipos do Discord.js.</li><li>Certifique-se de que o bot ainda funciona corretamente após a reorganização.</li></ol></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Organize todos os seus arquivos na estrutura de pastas profissional.</li><li>Crie o arquivo <code>src/types/index.ts</code> para estender os tipos do Discord.js.</li><li>Certifique-se de que o bot ainda funciona corretamente após a reorganização.</li></ol></div>
     `,
     "5.4": `
       <h2>Sistema de Cooldown</h2>
@@ -1358,7 +1358,7 @@ export default {
   data: new SlashCommandBuilder()...
   async execute(interaction) { ... }
 };</code></pre>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Implemente o sistema de cooldown no seu handler de interações.</li><li>Adicione a propriedade <code>cooldown</code> a pelo menos 3 comandos com valores diferentes.</li><li>Teste: use um comando, tente usá-lo novamente e veja a mensagem de cooldown.</li></ol></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Implemente o sistema de cooldown no seu handler de interações.</li><li>Adicione a propriedade <code>cooldown</code> a pelo menos 3 comandos com valores diferentes.</li><li>Teste: use um comando, tente usá-lo novamente e veja a mensagem de cooldown.</li></ol></div>
     `,
     "5.5": `
       <h2>Sistema de Permissões</h2>
@@ -1390,7 +1390,7 @@ export default {
     await interaction.reply(\`\${user.tag} foi banido. Motivo: \${reason}\`);
   }
 };</code></pre>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Implemente os comandos <code>/ban</code> e <code>/kick</code> com as permissões corretas.</li><li>Crie um comando <code>/limpar</code> que deleta mensagens, restrito a <code>ManageMessages</code>.</li><li>Teste com um usuário sem permissão para verificar que o comando não aparece para ele.</li></ol></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Implemente os comandos <code>/ban</code> e <code>/kick</code> com as permissões corretas.</li><li>Crie um comando <code>/limpar</code> que deleta mensagens, restrito a <code>ManageMessages</code>.</li><li>Teste com um usuário sem permissão para verificar que o comando não aparece para ele.</li></ol></div>
     `,
     "6.1": `
       <h2>Tratamento de Erros com try/catch</h2>
@@ -1424,7 +1424,7 @@ try {
     throw error; // Re-lança erros desconhecidos para o handler global
   }
 }</code></pre>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Adicione try/catch ao seu handler de interações.</li><li>Crie um comando <code>/force-error</code> que lança um erro intencional para testar o handler.</li><li>Adicione tratamento específico para o erro 50013 nos seus comandos de moderação.</li></ol></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Adicione try/catch ao seu handler de interações.</li><li>Crie um comando <code>/force-error</code> que lança um erro intencional para testar o handler.</li><li>Adicione tratamento específico para o erro 50013 nos seus comandos de moderação.</li></ol></div>
     `,
     "6.2": `
       <h2>Logging Profissional com Winston</h2>
@@ -1458,7 +1458,7 @@ export default logger;</code></pre>
 logger.info('Bot online!');
 logger.warn('Aviso importante');
 logger.error('Erro crítico:', error);</code></pre>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Instale o Winston e crie o utilitário de logger.</li><li>Substitua todos os <code>console.log</code> do projeto pelo logger.</li><li>Verifique os arquivos de log gerados na pasta <code>logs/</code>.</li></ol></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Instale o Winston e crie o utilitário de logger.</li><li>Substitua todos os <code>console.log</code> do projeto pelo logger.</li><li>Verifique os arquivos de log gerados na pasta <code>logs/</code>.</li></ol></div>
     `,
     "6.3": `
       <h2>Erros Comuns e Como Evitá-los</h2>
@@ -1484,7 +1484,7 @@ logger.error('Erro crítico:', error);</code></pre>
   // Edita a resposta com o resultado
   await interaction.editReply(\`Resultado: \${data}\`);
 }</code></pre>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Revise seus comandos e adicione <code>deferReply()</code> aos que fazem operações lentas.</li><li>Verifique seu <code>.gitignore</code> para garantir que <code>.env</code> está listado.</li><li>Adicione optional chaining (<code>?.</code>) onde necessário para prevenir erros de null.</li></ol></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Revise seus comandos e adicione <code>deferReply()</code> aos que fazem operações lentas.</li><li>Verifique seu <code>.gitignore</code> para garantir que <code>.env</code> está listado.</li><li>Adicione optional chaining (<code>?.</code>) onde necessário para prevenir erros de null.</li></ol></div>
     `,
     "6.4": `
       <h2>Deploy e Variáveis de Ambiente</h2>
@@ -1511,10 +1511,10 @@ DISCORD_TOKEN=seu_token_real
 CLIENT_ID=seu_client_id
 GUILD_ID=id_do_servidor  # Opcional em produção</code></pre>
       <div class="callout callout-info">
-        <span class="callout-icon">💡</span>
+        💡
         <div><strong>Deploy Contínuo:</strong> Após configurar, qualquer <code>git push</code> para a branch main atualiza automaticamente o bot em produção.</div>
       </div>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Crie um repositório no GitHub e envie seu código.</li><li>Faça o deploy em Railway ou Render.</li><li>Configure as variáveis de ambiente na plataforma.</li><li>Verifique nos logs da plataforma que o bot ficou online.</li></ol></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Crie um repositório no GitHub e envie seu código.</li><li>Faça o deploy em Railway ou Render.</li><li>Configure as variáveis de ambiente na plataforma.</li><li>Verifique nos logs da plataforma que o bot ficou online.</li></ol></div>
     `,
     "7.1": `
       <h2>Por que Usar Banco de Dados?</h2>
@@ -1538,7 +1538,7 @@ GUILD_ID=id_do_servidor  # Opcional em produção</code></pre>
           <tr><td>MongoDB</td><td>NoSQL Nuvem</td><td>Bots de grande escala</td></tr>
         </tbody>
       </table>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Pense nas funcionalidades do seu bot e liste quais dados precisam ser persistidos.</li><li>Decida qual abordagem de banco de dados faz mais sentido para o seu projeto.</li></ol></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Pense nas funcionalidades do seu bot e liste quais dados precisam ser persistidos.</li><li>Decida qual abordagem de banco de dados faz mais sentido para o seu projeto.</li></ol></div>
     `,
     "7.2": `
       <h2>Persistência com JSON</h2>
@@ -1567,8 +1567,8 @@ async execute(interaction) {
   await writeDB(db);
   await interaction.reply(\`Contador: \${db.count}\`);
 }</code></pre>
-      <div class="callout callout-warning"><span class="callout-icon">⚠️</span><div><strong>Limitações:</strong> Não use em produção com muitos usuários. Problemas de concorrência podem corromper os dados.</div></div>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Crie um arquivo <code>db.json</code> e implemente as funções <code>readDB</code> e <code>writeDB</code>.</li><li>Crie um comando <code>/contar</code> que incrementa um contador e o persiste no JSON.</li></ol></div>
+      <div class="callout callout-warning">⚠️<div><strong>Limitações:</strong> Não use em produção com muitos usuários. Problemas de concorrência podem corromper os dados.</div></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Crie um arquivo <code>db.json</code> e implemente as funções <code>readDB</code> e <code>writeDB</code>.</li><li>Crie um comando <code>/contar</code> que incrementa um contador e o persiste no JSON.</li></ol></div>
     `,
     "7.3": `
       <h2>SQLite com better-sqlite3</h2>
@@ -1611,7 +1611,7 @@ const transfer = db.transaction((from, to, amount) => {
   db.prepare('UPDATE economy SET balance = balance + ? WHERE user_id = ?').run(amount, to);
 });
 transfer(senderId, recipientId, 100);</code></pre>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Configure o SQLite no seu projeto.</li><li>Crie tabelas para configurações de servidor e XP de usuários.</li><li>Implemente os comandos <code>/setprefix</code> e <code>/level</code> usando SQLite.</li></ol></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Configure o SQLite no seu projeto.</li><li>Crie tabelas para configurações de servidor e XP de usuários.</li><li>Implemente os comandos <code>/setprefix</code> e <code>/level</code> usando SQLite.</li></ol></div>
     `,
     "7.4": `
       <h2>MongoDB com Mongoose</h2>
@@ -1649,7 +1649,7 @@ await GuildConfig.findOneAndUpdate(
 // Buscar
 const config = await GuildConfig.findOne({ guildId });
 const prefix = config?.prefix || '!';</code></pre>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Crie uma conta no MongoDB Atlas e obtenha a string de conexão.</li><li>Configure o Mongoose no projeto.</li><li>Crie models para GuildConfig e UserXP.</li><li>Refatore seus comandos para usar o Mongoose.</li></ol></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Crie uma conta no MongoDB Atlas e obtenha a string de conexão.</li><li>Configure o Mongoose no projeto.</li><li>Crie models para GuildConfig e UserXP.</li><li>Refatore seus comandos para usar o Mongoose.</li></ol></div>
     `,
     "7.5": `
       <h2>Comparando as Abordagens</h2>
@@ -1665,8 +1665,8 @@ const prefix = config?.prefix || '!';</code></pre>
         </tbody>
       </table>
       <h2>Recomendação</h2>
-      <div class="callout callout-success"><span class="callout-icon">✅</span><div><strong>Para a maioria dos bots:</strong> Use <strong>SQLite</strong>. É rápido, confiável, não precisa de serviço externo e suporta a carga de praticamente qualquer bot de Discord.</div></div>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Decida qual banco de dados usar no seu projeto final e justifique a escolha.</li><li>Certifique-se de que toda a lógica de banco de dados está centralizada em utilitários reutilizáveis.</li></ol></div>
+      <div class="callout callout-success">✅<div><strong>Para a maioria dos bots:</strong> Use <strong>SQLite</strong>. É rápido, confiável, não precisa de serviço externo e suporta a carga de praticamente qualquer bot de Discord.</div></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Decida qual banco de dados usar no seu projeto final e justifique a escolha.</li><li>Certifique-se de que toda a lógica de banco de dados está centralizada em utilitários reutilizáveis.</li></ol></div>
     `,
     "8.1": `
       <h2>Sistema de Economia</h2>
@@ -1705,7 +1705,7 @@ const prefix = config?.prefix || '!';</code></pre>
   updateStmt.run(senderId, guildId, -amount);
   updateStmt.run(recipientId, guildId, amount);
 });</code></pre>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Implemente os comandos <code>/saldo</code>, <code>/trabalhar</code> e <code>/pagar</code>.</li><li>Crie um comando <code>/ranking</code> que mostra os 10 mais ricos do servidor.</li><li>Adicione um comando <code>/daily</code> com cooldown de 24 horas.</li></ol></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Implemente os comandos <code>/saldo</code>, <code>/trabalhar</code> e <code>/pagar</code>.</li><li>Crie um comando <code>/ranking</code> que mostra os 10 mais ricos do servidor.</li><li>Adicione um comando <code>/daily</code> com cooldown de 24 horas.</li></ol></div>
     `,
     "8.2": `
       <h2>Sistema de Níveis e XP</h2>
@@ -1736,7 +1736,7 @@ client.on(Events.MessageCreate, async (message) => {
   
   xpCooldowns.set(key, Date.now());
 });</code></pre>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Implemente o sistema de ganho de XP no evento <code>messageCreate</code>.</li><li>Crie os comandos <code>/level</code> e <code>/leaderboard</code>.</li><li>Adicione uma barra de progresso visual no embed do <code>/level</code>.</li></ol></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Implemente o sistema de ganho de XP no evento <code>messageCreate</code>.</li><li>Crie os comandos <code>/level</code> e <code>/leaderboard</code>.</li><li>Adicione uma barra de progresso visual no embed do <code>/level</code>.</li></ol></div>
     `,
     "8.3": `
       <h2>Moderação Automática</h2>
@@ -1771,7 +1771,7 @@ if (antiSpam.get(userId).length > 5) {
   message.channel.send(\`\${message.author} foi silenciado por spam.\`);
   antiSpam.delete(userId);
 }</code></pre>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Implemente o filtro de palavras com comandos para gerenciar a lista.</li><li>Adicione o sistema anti-spam com timeout automático.</li><li>Crie um sistema de advertências que bane automaticamente após 3 warns.</li></ol></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Implemente o filtro de palavras com comandos para gerenciar a lista.</li><li>Adicione o sistema anti-spam com timeout automático.</li><li>Crie um sistema de advertências que bane automaticamente após 3 warns.</li></ol></div>
     `,
     "8.4": `
       <h2>Integração com APIs Externas</h2>
@@ -1820,7 +1820,7 @@ async execute(interaction) {
     else throw e;
   }
 }</code></pre>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Implemente o comando <code>/gato</code> usando a TheCatAPI.</li><li>Crie uma conta no OpenWeatherMap e implemente o comando <code>/clima</code>.</li><li>Explore outra API de sua escolha e crie um comando para ela.</li></ol></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Implemente o comando <code>/gato</code> usando a TheCatAPI.</li><li>Crie uma conta no OpenWeatherMap e implemente o comando <code>/clima</code>.</li><li>Explore outra API de sua escolha e crie um comando para ela.</li></ol></div>
     `,
     "9.1": `
       <h2>Planejando o Bot Completo</h2>
@@ -1851,7 +1851,7 @@ async execute(interaction) {
 │   ├── database.ts
 │   └── auditLogger.ts
 └── index.ts</code></pre>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Crie a estrutura de pastas do projeto "Server-Utils".</li><li>Configure o package.json, tsconfig.json e .gitignore.</li><li>Inicialize o banco de dados com as tabelas necessárias.</li></ol></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Crie a estrutura de pastas do projeto "Server-Utils".</li><li>Configure o package.json, tsconfig.json e .gitignore.</li><li>Inicialize o banco de dados com as tabelas necessárias.</li></ol></div>
     `,
     "9.2": `
       <h2>Construindo o Bot (Projeto Guiado)</h2>
@@ -1888,7 +1888,7 @@ export async function logAction(client, guildId, title, fields) {
     { name: 'Motivo', value: reason }
   ]);
 }</code></pre>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Implemente todos os comandos planejados.</li><li>Integre o auditLogger a todos os comandos de moderação.</li><li>Teste cada funcionalidade exaustivamente.</li></ol></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Implemente todos os comandos planejados.</li><li>Integre o auditLogger a todos os comandos de moderação.</li><li>Teste cada funcionalidade exaustivamente.</li></ol></div>
     `,
     "9.3": `
       <h2>Deploy no Railway / Render</h2>
@@ -1914,7 +1914,7 @@ export async function logAction(client, guildId, title, fields) {
 const dbPath = process.env.NODE_ENV === 'production' 
   ? '/data/data.db'  // Volume persistente no Railway
   : 'data.db';       // Local durante desenvolvimento</code></pre>
-      <div class="challenge-box"><div class="challenge-header"><span class="challenge-icon">🎯</span><span class="challenge-title">Desafio Prático</span></div><ol><li>Faça o deploy do seu bot "Server-Utils" em Railway ou Render.</li><li>Configure todas as variáveis de ambiente na plataforma.</li><li>Verifique nos logs que o bot está online e funcionando.</li></ol></div>
+      <div class="challenge-box"><div class="challenge-header">🎯Desafio Prático</div><ol><li>Faça o deploy do seu bot "Server-Utils" em Railway ou Render.</li><li>Configure todas as variáveis de ambiente na plataforma.</li><li>Verifique nos logs que o bot está online e funcionando.</li></ol></div>
     `,
     "9.4": `
       <h2>Parabéns! Você Chegou ao Final!</h2>
@@ -1942,7 +1942,7 @@ const dbPath = process.env.NODE_ENV === 'production'
           <tr><td>Novas APIs</td><td>Integrar com mais serviços externos</td></tr>
         </tbody>
       </table>
-      <div class="callout callout-success"><span class="callout-icon">🎉</span><div><strong>Continue construindo!</strong> A melhor forma de aprender é fazendo. Crie novos bots, experimente novas funcionalidades e compartilhe com a comunidade. Você está pronto!</div></div>
+      <div class="callout callout-success">🎉<div><strong>Continue construindo!</strong> A melhor forma de aprender é fazendo. Crie novos bots, experimente novas funcionalidades e compartilhe com a comunidade. Você está pronto!</div></div>
     `
   };
 
@@ -1986,9 +1986,9 @@ function renderSidebar() {
         <div class="module-header" onclick="toggleModule(${module.id})">
           <div class="module-header-left">
             <div class="module-badge ${allCompleted ? 'completed' : ''}">${allCompleted ? '✓' : module.id}</div>
-            <span class="module-title">${module.icon} ${module.title}</span>
+            ${module.icon} ${module.title}
           </div>
-          <span class="module-arrow">▶</span>
+          ▶
         </div>
         <div class="module-lessons">
           ${module.lessons.map(lesson => {
@@ -1997,7 +1997,7 @@ function renderSidebar() {
             return `
               <a class="lesson-link ${isActive ? 'active' : ''} ${isCompleted ? 'completed' : ''}" 
                  onclick="loadLesson('${lesson.id}')" href="#">
-                <span class="lesson-dot"></span>
+                
                 ${lesson.id}. ${lesson.title}
               </a>
             `;
@@ -2041,9 +2041,9 @@ function loadLesson(lessonId) {
       <div class="lesson-module-tag">📚 ${lesson.module}</div>
       <h1 class="lesson-title">${lesson.title}</h1>
       <div class="lesson-meta">
-        <span class="lesson-meta-item">⏱️ ${lesson.duration}</span>
-        <span class="lesson-meta-item">📖 Aula ${lessonId}</span>
-        ${isCompleted ? '<span class="lesson-meta-item" style="color:var(--accent-green)">✅ Concluída</span>' : ''}
+        ⏱️ ${lesson.duration}
+        📖 Aula ${lessonId}
+        ${isCompleted ? '✅ Concluída' : ''}
       </div>
     </div>
     <div class="lesson-content">
@@ -2052,7 +2052,7 @@ function loadLesson(lessonId) {
     <div class="lesson-navigation">
       ${prevLesson ? `
         <a class="nav-btn" onclick="loadLesson('${prevLesson.id}')" href="#">
-          <span class="nav-btn-icon">←</span>
+          ←
           <div>
             <div class="nav-btn-text">Aula Anterior</div>
             <div class="nav-btn-title">${prevLesson.id}. ${prevLesson.title}</div>
@@ -2070,7 +2070,7 @@ function loadLesson(lessonId) {
             <div class="nav-btn-text">Próxima Aula</div>
             <div class="nav-btn-title">${nextLesson.id}. ${nextLesson.title}</div>
           </div>
-          <span class="nav-btn-icon">→</span>
+          →
         </a>
       ` : '<div></div>'}
     </div>
@@ -2112,20 +2112,20 @@ function showWelcome() {
       
       <div class="welcome-stats">
         <div class="stat-card">
-          <span class="stat-number">${courseData.modules.length}</span>
-          <span class="stat-label">Módulos</span>
+          ${courseData.modules.length}
+          Módulos
         </div>
         <div class="stat-card">
-          <span class="stat-number">${totalLessons}</span>
-          <span class="stat-label">Aulas</span>
+          ${totalLessons}
+          Aulas
         </div>
         <div class="stat-card">
-          <span class="stat-number">${totalHours}h+</span>
-          <span class="stat-label">Conteúdo</span>
+          ${totalHours}h+
+          Conteúdo
         </div>
         <div class="stat-card">
-          <span class="stat-number">${completedLessons.size}</span>
-          <span class="stat-label">Concluídas</span>
+          ${completedLessons.size}
+          Concluídas
         </div>
       </div>
 
@@ -2176,9 +2176,9 @@ function highlightCode() {
     const header = document.createElement('div');
     header.className = 'code-block-header';
     header.innerHTML = `
-      <span class="code-lang" data-lang="${lang}">${lang}</span>
+      ${lang}
       <button class="copy-btn" onclick="copyCode(this)">
-        <span>📋</span> Copiar
+        📋 Copiar
       </button>
     `;
 
@@ -2219,42 +2219,42 @@ function highlightTypescript(code) {
 
   return escaped
     // Strings (antes das keywords para não conflitar)
-    .replace(/(["'`])(?:(?!\1)[^\\]|\\.)*?\1/g, '<span class="token-string">$&</span>')
+    .replace(/(["'`])(?:(?!\1)[^\\]|\\.)*?\1/g, '$&')
     // Comentários de linha
-    .replace(/(\/\/[^\n]*)/g, '<span class="token-comment">$1</span>')
+    .replace(/(\/\/[^\n]*)/g, '$1')
     // Comentários de bloco
-    .replace(/(\/\*[\s\S]*?\*\/)/g, '<span class="token-comment">$1</span>')
+    .replace(/(\/\*[\s\S]*?\*\/)/g, '$1')
     // Keywords
-    .replace(/\b(import|export|from|default|const|let|var|function|async|await|return|if|else|for|while|try|catch|finally|throw|new|class|extends|implements|interface|type|enum|namespace|declare|readonly|public|private|protected|static|abstract|override)\b/g, '<span class="token-keyword">$1</span>')
+    .replace(/\b(import|export|from|default|const|let|var|function|async|await|return|if|else|for|while|try|catch|finally|throw|new|class|extends|implements|interface|type|enum|namespace|declare|readonly|public|private|protected|static|abstract|override)\b/g, '$1')
     // Tipos TypeScript
-    .replace(/\b(string|number|boolean|void|null|undefined|any|never|unknown|object|Array|Promise|Collection)\b/g, '<span class="token-type">$1</span>')
+    .replace(/\b(string|number|boolean|void|null|undefined|any|never|unknown|object|Array|Promise|Collection)\b/g, '$1')
     // Booleanos e null
-    .replace(/\b(true|false|null|undefined)\b/g, '<span class="token-boolean">$1</span>')
+    .replace(/\b(true|false|null|undefined)\b/g, '$1')
     // Números
-    .replace(/\b(\d+\.?\d*)\b/g, '<span class="token-number">$1</span>');
+    .replace(/\b(\d+\.?\d*)\b/g, '$1');
 }
 
 function highlightBash(code) {
   const escaped = code.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   return escaped
-    .replace(/(#[^\n]*)/g, '<span class="token-comment">$1</span>')
-    .replace(/\b(npm|node|npx|git|mkdir|cd|ls|cat|echo|curl|tsc|tsx)\b/g, '<span class="token-keyword">$1</span>')
-    .replace(/(["'])(?:(?!\1)[^\\]|\\.)*?\1/g, '<span class="token-string">$&</span>');
+    .replace(/(#[^\n]*)/g, '$1')
+    .replace(/\b(npm|node|npx|git|mkdir|cd|ls|cat|echo|curl|tsc|tsx)\b/g, '$1')
+    .replace(/(["'])(?:(?!\1)[^\\]|\\.)*?\1/g, '$&');
 }
 
 function highlightJson(code) {
   const escaped = code.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   return escaped
-    .replace(/"([^"]+)":/g, '<span class="token-property">"$1"</span>:')
-    .replace(/: ("([^"]*)")/g, ': <span class="token-string">$1</span>')
-    .replace(/: (\d+\.?\d*)/g, ': <span class="token-number">$1</span>')
-    .replace(/: (true|false|null)/g, ': <span class="token-boolean">$1</span>');
+    .replace(/"([^"]+)":/g, '"$1":')
+    .replace(/: ("([^"]*)")/g, ': $1')
+    .replace(/: (\d+\.?\d*)/g, ': $1')
+    .replace(/: (true|false|null)/g, ': $1');
 }
 
 function highlightSql(code) {
   const escaped = code.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   return escaped
-    .replace(/\b(SELECT|INSERT|UPDATE|DELETE|FROM|WHERE|CREATE|TABLE|IF|NOT|EXISTS|PRIMARY|KEY|TEXT|INTEGER|DEFAULT|AND|OR|ON|CONFLICT|DO|SET|VALUES|INTO|LIMIT|ORDER|BY|DESC|ASC|NULL)\b/gi, '<span class="token-keyword">$&</span>');
+    .replace(/\b(SELECT|INSERT|UPDATE|DELETE|FROM|WHERE|CREATE|TABLE|IF|NOT|EXISTS|PRIMARY|KEY|TEXT|INTEGER|DEFAULT|AND|OR|ON|CONFLICT|DO|SET|VALUES|INTO|LIMIT|ORDER|BY|DESC|ASC|NULL)\b/gi, '$&');
 }
 
 // ============================================
@@ -2267,10 +2267,10 @@ function copyCode(btn) {
   const code = codeElement.getAttribute('data-original-code') || codeElement.textContent;
 
   navigator.clipboard.writeText(code).then(() => {
-    btn.innerHTML = '<span>✅</span> Copiado!';
+    btn.innerHTML = '✅ Copiado!';
     btn.classList.add('copied');
     setTimeout(() => {
-      btn.innerHTML = '<span>📋</span> Copiar';
+      btn.innerHTML = '📋 Copiar';
       btn.classList.remove('copied');
     }, 2000);
   });
