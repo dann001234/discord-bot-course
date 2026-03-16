@@ -2182,8 +2182,11 @@ function highlightCode() {
       </button>
     `;
 
-    // Aplica highlight
+    // Captura o código original ANTES de aplicar highlight
     const code = block.textContent;
+    // Guarda o código puro em um atributo data-
+    block.setAttribute('data-original-code', code);
+    // Aplica highlight
     block.innerHTML = applyHighlight(code, lang);
 
     // Monta estrutura
@@ -2259,7 +2262,9 @@ function highlightSql(code) {
 // ============================================
 function copyCode(btn) {
   const wrapper = btn.closest('.code-block-wrapper');
-  const code = wrapper.querySelector('code').textContent;
+  const codeElement = wrapper.querySelector('code');
+  // Pega o código original armazenado no atributo data-
+  const code = codeElement.getAttribute('data-original-code') || codeElement.textContent;
 
   navigator.clipboard.writeText(code).then(() => {
     btn.innerHTML = '<span>✅</span> Copiado!';
